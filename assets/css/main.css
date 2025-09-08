@@ -228,21 +228,21 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
-		width: 1200px;
+		width: 1400px;
 	}
 
 		.container.medium {
-			width: 900px;
+			width: 1200px;
 		}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 1200px;
+				width: 1400px;
 			}
 
 				.container.medium {
-					width: 900px;
+					width: 1200px;
 				}
 
 		}
@@ -250,11 +250,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: 960px;
+				width: 1100px;
 			}
 
 				.container.medium {
-					width: 720px;
+					width: 1000px;
 				}
 
 		}
@@ -266,7 +266,7 @@ input, select, textarea {
 			}
 
 				.container.medium {
-					width: 75%;
+					width: 80%;
 				}
 
 		}
