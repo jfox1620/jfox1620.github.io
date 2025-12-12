@@ -2449,3 +2449,23 @@ input, select, textarea {
 					}
 
 	}
+
+/* ===========================
+   Mobile overrides
+   =========================== */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-wrap: wrap; /* allow columns to stack */
+    }
+
+    .col-4, .col-8 {
+        width: 100% !important; /* full width on small screens */
+        margin-bottom: 1em;     /* spacing between stacked columns */
+    }
+
+    .image.fit img {
+        width: 50%;             /* or 100% if you want full width */
+        display: block;
+        margin: 0 auto;         /* center image */
+    }
+}
