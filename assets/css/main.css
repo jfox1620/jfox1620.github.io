@@ -2454,18 +2454,20 @@ input, select, textarea {
    Mobile overrides
    =========================== */
 @media screen and (max-width: 768px) {
-    .row {
-        flex-wrap: wrap; /* allow columns to stack */
+    .col-4, .col-8 {
+        width: 100% !important;      /* column fills screen */
+        margin-bottom: 1em;
     }
 
-    .col-4, .col-8 {
-        width: 100% !important; /* full width on small screens */
-        margin-bottom: 1em;     /* spacing between stacked columns */
+    .image.fit {
+        width: 100%;                 /* parent span fills column */
     }
 
     .image.fit img {
-        width: 80%;             /* or 100% if you want full width */
+        width: 80%;                  /* image is 80% of parent column */
+        max-width: none;             /* remove any max-width restrictions */
+        height: auto;                /* maintain aspect ratio */
         display: block;
-        margin: 0 auto;         /* center image */
+        margin: 0 auto;              /* center image */
     }
 }
