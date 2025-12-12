@@ -2464,7 +2464,7 @@ input, select, textarea {
     }
 
     .image.fit img {
-        width: 80%;                  /* image is 80% of parent column */
+        width: 94%;                  /* image is 80% of parent column */
         max-width: none;             /* remove any max-width restrictions */
         height: auto;                /* maintain aspect ratio */
         display: block;
