@@ -2464,7 +2464,7 @@ input, select, textarea {
     }
 
     .image.fit img {
-        width: 50%;             /* or 100% if you want full width */
+        width: 80%;             /* or 100% if you want full width */
         display: block;
         margin: 0 auto;         /* center image */
     }
